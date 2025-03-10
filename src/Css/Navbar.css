@@ -1,6 +1,7 @@
 .nav_container {
   width: 100%;
   padding: 10px 0;
+  box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.4);
 }
 
 .logo {
@@ -23,11 +24,13 @@
   display: inline;
   margin-right: 15px;
 }
+
 .btn {
   background-color: #0cb8b6;
   padding: 15px 10px;
   border: none;
   font-size: 14px;
+  cursor: pointer;
   color: white;
   font-weight: 600;
   border-radius: 5px;
