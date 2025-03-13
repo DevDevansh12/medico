@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 306.08 78.26">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #44b75e;
+      }
+
+      .cls-2 {
+        fill: #507abd;
+      }
+
+      .cls-3 {
+        fill: #231f20;
+        font-family: NeueHaasDisplay-Mediu, 'Neue Haas Grotesk Display Pro';
+        font-size: 56.75px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <path class="cls-2" d="M53.08,25.78h25.78c0,6.91-5.61,12.51-12.51,12.51h-25.78c0-6.91,5.61-12.51,12.51-12.51Z"/>
+    <path class="cls-2" d="M27.68,12.89h38.29c0,6.91-5.61,12.51-12.51,12.51H27.68V12.89h0Z" transform="translate(27.68 65.97) rotate(-90)"/>
+    <path class="cls-1" d="M12.89,12.89H51.18c0,6.91-5.61,12.51-12.51,12.51H12.89V12.89h0Z" transform="translate(12.89 51.18) rotate(-90)"/>
+    <path class="cls-1" d="M0,25.78H38.29c0,6.91-5.61,12.51-12.51,12.51H12.51C5.61,38.29,0,32.69,0,25.78H0Z" transform="translate(38.29 64.07) rotate(180)"/>
+    <path class="cls-2" d="M0,39.96H38.29c0,6.91-5.61,12.51-12.51,12.51H0v-12.51H0Z" transform="translate(38.29 92.44) rotate(180)"/>
+    <path class="cls-2" d="M12.89,52.85H51.18c0,6.91-5.61,12.51-12.51,12.51H12.89v-12.51h0Z" transform="translate(91.15 27.07) rotate(90)"/>
+    <path class="cls-1" d="M27.68,52.85h38.29c0,6.91-5.61,12.51-12.51,12.51H27.68v-12.51h0Z" transform="translate(105.93 12.29) rotate(90)"/>
+    <path class="cls-1" d="M40.57,39.96h38.29c0,6.91-5.61,12.51-12.51,12.51h-25.78v-12.51h0Z"/>
+    <text class="cls-3" transform="translate(91.38 59.11)"><tspan x="0" y="0">MEDICO</tspan></text>
+  </g>
+</svg>
