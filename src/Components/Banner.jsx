@@ -40,7 +40,7 @@ const Banner = () => {
           </p>
           <h1
             ref={headingRef}
-            className="text-4xl md:text-5xl lg:text-6xl font-semibold mb-6 leading-tight"
+            className="text-4xl md:text-5xl lg:text-6xl font-semibold mb-6"
             style={{ textShadow: "0 0 10px rgba(0, 255, 255, 0.6)" }}
           >
             Expert medical care <br className="hidden md:block" /> for good

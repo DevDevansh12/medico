@@ -1,10 +1,50 @@
-import React from "react";
+import React, { useRef } from "react";
+import { motion, useInView } from "framer-motion";
+import femaleImg from "./../assets/female.jpg";
+
 const AppointmentSection = () => {
+  const chooseUsRef = useRef(null);
+  const chooseUsInView = useInView(chooseUsRef, { once: false });
+
+  const formRef = useRef(null);
+  const formInView = useInView(formRef, { once: false });
+
   return (
     <div className="bg-gray-100 py-12 px-4 md:px-8 lg:px-16">
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
-        {/* Appointment Form */}
-        <div className="bg-white rounded-lg shadow-md p-6">
+        <motion.div
+          ref={chooseUsRef}
+          className="flex flex-col justify-center items-center"
+          initial={{ opacity: 0, x: -50 }}
+          animate={
+            chooseUsInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -50 }
+          }
+          transition={{ duration: 0.8 }}
+        >
+          <div className="mb-5 text-center">
+            <h3 className="text-4xl md:text-5xl lg:text-6xl font-semibold mb-2 text-[#0cb8b6]">
+              Why Choose Us?
+            </h3>
+            <p className="text-gray-700">
+              Our experienced team is dedicated to providing you with the best
+              care, prioritizing personalized treatment plans, compassionate
+              care, and a commitment to your overall well-being.
+            </p>
+          </div>
+          <img
+            src={femaleImg}
+            alt="Why Choose Us"
+            className="max-w-full h-auto rounded-lg"
+          />
+        </motion.div>
+
+        <motion.div
+          ref={formRef}
+          className="bg-white rounded-lg shadow-md p-6"
+          initial={{ opacity: 0, x: 50 }}
+          animate={formInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 50 }}
+          transition={{ duration: 0.8 }}
+        >
           <h2 className="text-lg font-semibold text-[#0cb8b6] mb-2 uppercase">
             Online Appointment
           </h2>
@@ -30,7 +70,7 @@ const AppointmentSection = () => {
               />
               <input
                 type="date"
-                placeholder="Appointment Date"
+                placeholder="dd-mm-yyyy"
                 className="border rounded-md p-2 w-full"
               />
             </div>
@@ -52,11 +92,11 @@ const AppointmentSection = () => {
                 className="border rounded-md p-2 w-full h-32 resize-none"
               ></textarea>
             </div>
-            <button className="bg-[#0cb8b6] text-white py-3 px-6 rounded-md transition-colors flex items-center">
+            <button className="bg-[#0cb8b6] mx-auto text-white py-3 px-6 rounded-md transition-colors flex items-center">
               Submit Query
             </button>
           </form>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
