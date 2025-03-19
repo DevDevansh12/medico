@@ -2,14 +2,14 @@ import React from "react";
 import AppointmentSection from "../Components/AppointmentSection";
 import AboutInfo from "../Components/AboutInfo";
 import SpecialistsSection from "../Components/SpecialistsSection";
-import StatsSection from "../Components/StatsSection.JSX";
+import StatsContainer from "../Components/StatsContainer";
 const About = () => {
   return (
     <div>
       <AppointmentSection />
       <AboutInfo />
       <SpecialistsSection />
-      <StatsSection />
+      <StatsContainer />
     </div>
   );
 };

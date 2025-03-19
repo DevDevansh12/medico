@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import bannerImg from "../assets/bannerImg.jpg";
 
-const StatsSection = () => {
+const StatsContainer = () => {
   const [counts, setCounts] = useState({
     patients: 0,
     doctors: 0,
@@ -86,4 +86,4 @@ const StatsSection = () => {
   );
 };
 
-export default StatsSection;
+export default StatsContainer;

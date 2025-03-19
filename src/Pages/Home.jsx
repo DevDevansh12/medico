@@ -3,9 +3,7 @@ import Banner from "../Components/Banner";
 import AppointmentSection from "../Components/AppointmentSection";
 import CentresOfExcellence from "../Components/CentresOfExcellence";
 import SpecialistsSection from "../Components/SpecialistsSection";
-
-import OfficeFinder from "../Components/OfficeFinder.JSX";
-
+import FinderOffice from "../Components/FinderOffice";
 const Home = () => {
   return (
     <div>
@@ -13,7 +11,7 @@ const Home = () => {
       <AppointmentSection />
       <CentresOfExcellence />
       <SpecialistsSection />
-      <OfficeFinder />
+      <FinderOffice />
     </div>
   );
 };

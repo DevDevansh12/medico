@@ -1,7 +1,7 @@
 import React from "react";
 import bannerImg from "../assets/bannerImg.jpg";
 
-const OfficeFinder = () => {
+const FinderOffice = () => {
   return (
     <section className="bg-gradient-to-r from-teal-500 to-blue-500 text-white py-20 relative overflow-hidden">
       <div
@@ -41,4 +41,4 @@ const OfficeFinder = () => {
   );
 };
 
-export default OfficeFinder;
+export default FinderOffice;
