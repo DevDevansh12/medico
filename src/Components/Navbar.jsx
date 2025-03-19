@@ -11,7 +11,7 @@ function Navbar() {
   };
 
   const handleWhatsAppClick = () => {
-    window.open("https://wa.me/YOUR_WHATSAPP_NUMBER", "_blank"); // Replace with your number
+    window.open("https://wa.me/YOUR_WHATSAPP_NUMBER", "_blank");
   };
 
   React.useEffect(() => {

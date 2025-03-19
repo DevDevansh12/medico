@@ -37,12 +37,11 @@ const Banner = () => {
         <div className="text-center">
           <p className="text-lg md:text-xl font-semibold uppercase mb-4 tracking-wide text-gray-300">
             {" "}
-            {/* Increased font size here */}
             BEST SERVICE GOOD HEALTH
           </p>
           <h1
             ref={headingRef}
-            className="text-5xl md:text-6xl lg:text-7xl font-semibold mb-6" // Increased font size here
+            className="text-5xl md:text-6xl lg:text-7xl font-semibold mb-6"
             style={{ textShadow: "0 0 10px rgba(0, 255, 255, 0.6)" }}
           >
             Expert medical care <br className="hidden md:block" /> for good
@@ -50,7 +49,6 @@ const Banner = () => {
           </h1>
           <p ref={descRef} className="text-lg md:text-xl mb-8 text-gray-200">
             {" "}
-            {/* Increased font size here */}
             Providing comprehensive medical services with a focus on your
             well-being.
           </p>

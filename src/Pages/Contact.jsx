@@ -17,10 +17,8 @@ const Contact = () => {
   return (
     <div className="bg-gray-100 py-16">
       <div className="container mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-8">
-        {/* Image Section */}
         <motion.div
           ref={ref}
-          // REMOVE THESE CLASSES: className="hidden lg:block"
           initial={{ opacity: 0, x: -50 }}
           animate={controls}
         >
@@ -31,7 +29,6 @@ const Contact = () => {
           />
         </motion.div>
 
-        {/* Form Section */}
         <motion.div
           ref={ref}
           className="bg-white rounded-lg shadow-md p-8"

@@ -7,7 +7,6 @@ const SpecialistsSection = () => {
   return (
     <div className="bg-gray-100 py-20 px-4 md:px-8 lg:px-16">
       <div className="max-w-6xl mx-auto text-center">
-        {/* Heading Section */}
         <div className="mb-16">
           <h3 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-[#0CB8B6] mb-6">
             Meet Our Specialists
@@ -19,15 +18,13 @@ const SpecialistsSection = () => {
           </p>
         </div>
 
-        {/* Specialists Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-          {/* Jessica Jones */}
           <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300">
             <div className="relative">
               <img
                 src={Doc}
                 alt="Jessica Jones"
-                className="w-full h-64 object-cover" // Adjusted height
+                className="w-full h-64 object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-50"></div>
             </div>
@@ -42,13 +39,12 @@ const SpecialistsSection = () => {
             </div>
           </div>
 
-          {/* Ahel Natasha */}
           <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300">
             <div className="relative">
               <img
                 src={Doctwo}
                 alt="Ahel Natasha"
-                className="w-full h-64 object-cover" // Adjusted height
+                className="w-full h-64 object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-50"></div>
             </div>
@@ -63,13 +59,12 @@ const SpecialistsSection = () => {
             </div>
           </div>
 
-          {/* Gabriela Beckett */}
           <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300">
             <div className="relative">
               <img
                 src={Docthree}
                 alt="Gabriela Beckett"
-                className="w-full h-64 object-cover" // Adjusted height
+                className="w-full h-64 object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-50"></div>
             </div>

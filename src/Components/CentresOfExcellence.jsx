@@ -13,7 +13,6 @@ const CentresOfExcellence = () => {
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* Blood Cancer */}
           <div className="bg-white rounded-lg shadow-md p-6">
             <div className="w-16 h-16 bg-teal-50 rounded-full flex items-center justify-center mx-auto mb-4">
               <svg
@@ -42,7 +41,6 @@ const CentresOfExcellence = () => {
             </button>
           </div>
 
-          {/* Neurology Surgery */}
           <div className="bg-white rounded-lg shadow-md p-6">
             <div className="w-16 h-16 bg-teal-50 rounded-full flex items-center justify-center mx-auto mb-4">
               <svg
@@ -71,7 +69,6 @@ const CentresOfExcellence = () => {
             </button>
           </div>
 
-          {/* Body Surgery */}
           <div className="bg-white rounded-lg shadow-md p-6">
             <div className="w-16 h-16 bg-teal-50 rounded-full flex items-center justify-center mx-auto mb-4">
               <svg

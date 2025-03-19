@@ -4,7 +4,7 @@ import {
   FaEnvelope,
   FaMapMarkerAlt,
   FaCalendarAlt,
-} from "react-icons/fa"; // Using react-icons/fa
+} from "react-icons/fa"; 
 import { HashLink } from "react-router-hash-link";
 
 const Tabline = () => {
@@ -31,7 +31,7 @@ const Tabline = () => {
         </div>
       </div>
       <HashLink
-        to="/about#appointment" //adding an appointment id to the about page.
+        to="/about#appointment" 
         className="text-white font-bold text-xl font-body mt-2 md:mt-0"
       >
         <button className="bg-blue-800 hover:bg-blue-700 text-white font-medium py-1 px-2 md:py-2 md:px-4 rounded flex items-center text-xs md:text-base whitespace-nowrap">

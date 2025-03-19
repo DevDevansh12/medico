@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import bgImage from "../assets/bannerImg.jpg"; // Import your background image
+import bgImage from "../assets/bannerImg.jpg";
 
 const ScheduleAndForm = () => {
   const [name, setName] = useState("");
@@ -8,9 +8,8 @@ const ScheduleAndForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here
+
     console.log("Form submitted:", { name, email, query });
-    // You can add your API call or other logic here
   };
 
   return (
@@ -24,7 +23,6 @@ const ScheduleAndForm = () => {
       }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-30"></div>{" "}
-      {/* Overlay for better text readability */}
       <div className="container mx-auto px-4 relative z-10 text-white">
         <div className="max-w-md mx-auto bg-gray-800 bg-opacity-90 rounded-lg p-8">
           <h2 className="text-3xl font-semibold text-center mb-6">
