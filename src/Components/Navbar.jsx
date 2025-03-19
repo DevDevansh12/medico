@@ -11,7 +11,7 @@ function Navbar() {
   };
 
   const handleWhatsAppClick = () => {
-    window.open("https://wa.me/YOUR_WHATSAPP_NUMBER", "_blank");
+    window.open("https://wa.me/YOUR_WHATSAPP_NUMBER", "_blank"); // Replace with your number
   };
 
   React.useEffect(() => {
@@ -19,18 +19,16 @@ function Navbar() {
   }, [location]);
 
   return (
-    <nav className="relative bg-white py-4 px-6 flex items-center justify-center md:justify-around shadow-md">
-      {" "}
-      {/* Adjusted justify-center */}
+    <nav className="relative bg-white py-4 px-6 flex items-center justify-around shadow-md">
       <div className="flex items-center">
-        <span className="font-semibold text-2xl">Medico</span>
+        <span className="font-bold text-3xl text-[#0CB8B6]">Medico</span>
       </div>
       <div className="md:hidden">
         <button onClick={toggleMobileMenu} className="focus:outline-none">
           {isMobileMenuOpen ? <FaTimes /> : <FaBars />}
         </button>
       </div>
-      <div className={`hidden md:flex items-center space-x-4`}>
+      <div className="hidden md:flex items-center space-x-4">
         <Link to="/" className="hover:text-gray-600">
           Home
         </Link>
@@ -52,12 +50,12 @@ function Navbar() {
         </button>
       </div>
       {isMobileMenuOpen && (
-        <div className="md:hidden absolute top-full left-0 w-full bg-white py-4 flex flex-col items-center transition-all duration-300 ease-in-out">
+        <div className="md:hidden absolute top-full left-0 w-full bg-white py-4 flex flex-col items-center transition-all duration-300 ease-in-out z-50">
           <div
             className="fixed top-0 left-0 w-full h-full bg-black opacity-50 z-40"
             onClick={toggleMobileMenu}
           ></div>
-          <div className="relative z-50 w-full">
+          <div className="w-full relative z-50">
             <div className="flex flex-col items-center w-full">
               <Link
                 to="/"
@@ -75,19 +73,13 @@ function Navbar() {
                 to="/services"
                 className="hover:text-gray-600 py-2 w-full text-center"
               >
-                SERVICES
-              </Link>
-              <Link
-                to="/blog"
-                className="hover:text-gray-600 py-2 w-full text-center"
-              >
-                BLOG
+                Services
               </Link>
               <Link
                 to="/contact"
                 className="hover:text-gray-600 py-2 w-full text-center"
               >
-                CONTACT
+                Contact
               </Link>
               <button
                 onClick={handleWhatsAppClick}
