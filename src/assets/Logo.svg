@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 306.08 78.26">
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 78.86 78.26">
   <defs>
     <style>
       .cls-1 {
@@ -7,13 +7,7 @@
       }
 
       .cls-2 {
-        fill: #507abd;
-      }
-
-      .cls-3 {
-        fill: #231f20;
-        font-family: NeueHaasDisplay-Mediu, 'Neue Haas Grotesk Display Pro';
-        font-size: 56.75px;
+        fill: #125774;
       }
     </style>
   </defs>
@@ -26,6 +20,5 @@
     <path class="cls-2" d="M12.89,52.85H51.18c0,6.91-5.61,12.51-12.51,12.51H12.89v-12.51h0Z" transform="translate(91.15 27.07) rotate(90)"/>
     <path class="cls-1" d="M27.68,52.85h38.29c0,6.91-5.61,12.51-12.51,12.51H27.68v-12.51h0Z" transform="translate(105.93 12.29) rotate(90)"/>
     <path class="cls-1" d="M40.57,39.96h38.29c0,6.91-5.61,12.51-12.51,12.51h-25.78v-12.51h0Z"/>
-    <text class="cls-3" transform="translate(91.38 59.11)"><tspan x="0" y="0">MEDICO</tspan></text>
   </g>
 </svg>

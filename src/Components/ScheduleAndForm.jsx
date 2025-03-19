@@ -79,7 +79,7 @@ const ScheduleAndForm = () => {
             <div className="flex justify-center">
               <button
                 type="submit"
-                className="bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-6 rounded-md"
+                className="bg-[#125774] text-white font-semibold py-2 px-6 rounded-md"
               >
                 Submit Query
               </button>

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { FaBars, FaTimes, FaWhatsapp } from "react-icons/fa";
-
+import Logo from "./../assets/Logo.svg";
 function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const location = useLocation();
@@ -20,8 +20,9 @@ function Navbar() {
 
   return (
     <nav className="relative bg-white py-4 px-6 flex items-center justify-around shadow-md">
-      <div className="flex items-center">
-        <span className="font-bold text-3xl text-[#0CB8B6]">Medico</span>
+      <div className="flex items-center gap-5">
+        <img src={Logo} alt="" width={50} />
+        <span className="font-bold text-3xl">Medico</span>
       </div>
       <div className="md:hidden">
         <button onClick={toggleMobileMenu} className="focus:outline-none">

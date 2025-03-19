@@ -22,7 +22,7 @@ const AppointmentSection = () => {
           transition={{ duration: 0.8 }}
         >
           <div className="mb-5 text-center">
-            <h3 className="text-4xl md:text-5xl lg:text-6xl font-semibold mb-2 text-[#22bdbb]">
+            <h3 className="text-3xl md:text-5xl lg:text-6xl font-semibold mb-2 text-[#125774]">
               Why Choose Us?
             </h3>
             <p className="text-gray-700">
@@ -45,7 +45,7 @@ const AppointmentSection = () => {
           animate={formInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 50 }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-lg font-semibold text-[#0cb8b6] mb-2 uppercase">
+          <h2 className="text-lg font-semibold text-[#125774] mb-2 uppercase">
             Online Appointment
           </h2>
           <h3 className="text-2xl font-medium mb-6">Make An Appointment</h3>
@@ -92,7 +92,7 @@ const AppointmentSection = () => {
                 className="border rounded-md p-2 w-full h-32 resize-none"
               ></textarea>
             </div>
-            <button className="bg-[#0cb8b6] mx-auto text-white py-3 px-6 rounded-md transition-colors flex items-center">
+            <button className="bg-[#125774] mx-auto text-white py-3 px-6 rounded-md transition-colors flex items-center">
               Submit Query
             </button>
           </form>

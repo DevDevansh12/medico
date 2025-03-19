@@ -33,12 +33,12 @@ const CardSection = () => {
           >
             <div className="flex justify-center mb-6">
               <div className="bg-[#E0F7FA] rounded-full p-4">
-                {index === 0 && <FaEye className="h-10 w-10 text-[#0CB8B6]" />}
+                {index === 0 && <FaEye className="h-10 w-10 text-[#125774]" />}
                 {index === 1 && (
-                  <FaHeartbeat className="h-10 w-10 text-[#0CB8B6]" />
+                  <FaHeartbeat className="h-10 w-10 text-[#125774]" />
                 )}
                 {index === 2 && (
-                  <FaBrain className="h-10 w-10 text-[#0CB8B6]" />
+                  <FaBrain className="h-10 w-10 text-[#125774]" />
                 )}
               </div>
             </div>
@@ -53,7 +53,7 @@ const CardSection = () => {
                 onClick={() => {
                   window.location.href = card.link; // Navigate on button click
                 }}
-                className="bg-[#0CB8B6] text-white font-medium py-2 px-4 rounded"
+                className="bg-[#125774] text-white font-medium py-2 px-4 rounded"
               >
                 Read More
               </button>

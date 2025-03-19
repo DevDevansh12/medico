@@ -82,7 +82,7 @@ const Contact = () => {
             <div>
               <button
                 type="submit"
-                className="w-full bg-[#0CB8B6] text-white py-3 rounded-md transition-colors duration-300"
+                className="w-full bg-[#125774] text-white py-3 rounded-md transition-colors duration-300"
               >
                 Send Message
               </button>

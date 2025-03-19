@@ -8,7 +8,7 @@ const SpecialistsSection = () => {
     <div className="bg-gray-100 py-20 px-4 md:px-8 lg:px-16">
       <div className="max-w-6xl mx-auto text-center">
         <div className="mb-16">
-          <h3 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-[#0CB8B6] mb-6">
+          <h3 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-[#125774] mb-6">
             Meet Our Specialists
           </h3>
           <p className="text-lg text-gray-700 leading-relaxed max-w-2xl mx-auto">
@@ -29,11 +29,11 @@ const SpecialistsSection = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-50"></div>
             </div>
             <div className="p-6">
-              <h4 className="text-2xl font-semibold text-[#0CB8B6] mb-2">
+              <h4 className="text-2xl font-semibold text-[#125774] mb-2">
                 Jessica Jones
               </h4>
               <p className="text-gray-600 mb-4">CARDIOLOGIST</p>
-              <button className="bg-[#0CB8B6] text-white py-3 px-6 rounded-full  transition-colors duration-300">
+              <button className="bg-[#125774] text-white py-3 px-6 rounded-full  transition-colors duration-300">
                 MAKE APPOINTMENT
               </button>
             </div>
@@ -49,11 +49,11 @@ const SpecialistsSection = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-50"></div>
             </div>
             <div className="p-6">
-              <h4 className="text-2xl font-semibold text-[#0CB8B6] mb-2">
+              <h4 className="text-2xl font-semibold text-[#125774] mb-2">
                 Ahel Natasha
               </h4>
               <p className="text-gray-600 mb-4">DENTAL SURGEON</p>
-              <button className="bg-[#0CB8B6] text-white py-3 px-6 rounded-full transition-colors duration-300">
+              <button className="bg-[#125774] text-white py-3 px-6 rounded-full transition-colors duration-300">
                 MAKE APPOINTMENT
               </button>
             </div>
@@ -69,11 +69,11 @@ const SpecialistsSection = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-50"></div>
             </div>
             <div className="p-6">
-              <h4 className="text-2xl font-semibold text-[#0CB8B6] mb-2">
+              <h4 className="text-2xl font-semibold text-[#125774] mb-2">
                 Gabriela Beckett
               </h4>
               <p className="text-gray-600 mb-4">COSMETIC SURGEON</p>
-              <button className="bg-[#0CB8B6] text-white py-3 px-6 rounded-full transition-colors duration-300">
+              <button className="bg-[#125774] text-white py-3 px-6 rounded-full transition-colors duration-300">
                 MAKE APPOINTMENT
               </button>
             </div>
