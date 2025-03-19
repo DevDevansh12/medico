@@ -19,7 +19,9 @@ function Navbar() {
   }, [location]);
 
   return (
-    <nav className="relative bg-white py-4 px-6 flex items-center justify-around shadow-md">
+    <nav className="relative bg-white py-4 px-6 flex items-center justify-center md:justify-around shadow-md">
+      {" "}
+      {/* Adjusted justify-center */}
       <div className="flex items-center">
         <span className="font-semibold text-2xl">Medico</span>
       </div>
@@ -30,22 +32,16 @@ function Navbar() {
       </div>
       <div className={`hidden md:flex items-center space-x-4`}>
         <Link to="/" className="hover:text-gray-600">
-          HOME
+          Home
         </Link>
-        <Link to="/pages" className="hover:text-gray-600">
-          PAGES
+        <Link to="/About" className="hover:text-gray-600">
+          About
         </Link>
         <Link to="/services" className="hover:text-gray-600">
-          SERVICES
-        </Link>
-        <Link to="/gallery" className="hover:text-gray-600">
-          GALLERY
-        </Link>
-        <Link to="/blog" className="hover:text-gray-600">
-          BLOG
+          Services
         </Link>
         <Link to="/contact" className="hover:text-gray-600">
-          CONTACT
+          Contact
         </Link>
         <button
           onClick={handleWhatsAppClick}
@@ -67,25 +63,19 @@ function Navbar() {
                 to="/"
                 className="hover:text-gray-600 py-2 w-full text-center"
               >
-                HOME
+                Home
               </Link>
               <Link
-                to="/pages"
+                to="/About"
                 className="hover:text-gray-600 py-2 w-full text-center"
               >
-                PAGES
+                About
               </Link>
               <Link
                 to="/services"
                 className="hover:text-gray-600 py-2 w-full text-center"
               >
                 SERVICES
-              </Link>
-              <Link
-                to="/gallery"
-                className="hover:text-gray-600 py-2 w-full text-center"
-              >
-                GALLERY
               </Link>
               <Link
                 to="/blog"

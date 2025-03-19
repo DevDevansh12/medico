@@ -1,5 +1,5 @@
 import React from "react";
-import bannerImg from "../assets/bannerImg.jpg"; // Import the image
+import bannerImg from "../assets/bannerImg.jpg";
 
 const OfficeFinder = () => {
   return (

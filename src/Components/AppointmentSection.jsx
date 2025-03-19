@@ -11,7 +11,7 @@ const AppointmentSection = () => {
 
   return (
     <div className="bg-gray-100 py-12 px-4 md:px-8 lg:px-16">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-24">
         <motion.div
           ref={chooseUsRef}
           className="flex flex-col justify-center items-center"
@@ -22,7 +22,7 @@ const AppointmentSection = () => {
           transition={{ duration: 0.8 }}
         >
           <div className="mb-5 text-center">
-            <h3 className="text-4xl md:text-5xl lg:text-6xl font-semibold mb-2 text-[#0cb8b6]">
+            <h3 className="text-4xl md:text-5xl lg:text-6xl font-semibold mb-2 text-[#22bdbb]">
               Why Choose Us?
             </h3>
             <p className="text-gray-700">
